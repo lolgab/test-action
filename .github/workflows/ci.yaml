@@ -17,7 +17,7 @@ jobs:
 
       - name: Git Version
         id: version
-        uses: codacy/git-version@8e446228ada122b999724f985882698e58c9ddee
+        uses: codacy/git-version@e152f6ac397e1b6d6f0b39f39aa8762683049689
         with:
           tool-version: "2.5.1"
       
