@@ -18,6 +18,8 @@ jobs:
       - name: Git Version
         id: version
         uses: codacy/git-version@8e446228ada122b999724f985882698e58c9ddee
+        with:
+          tool-version: "2.5.1"
       
       - name: Use the version
         run: |
