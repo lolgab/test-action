@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  lint:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -17,7 +17,7 @@ jobs:
 
       - name: Git Version
         id: version
-        uses: codacy/git-version@117fdf7ac4334ba50dc65cfd7df48420b70349e0
+        uses: codacy/git-version@53812dec9230e0a1078c47b6a80800df964ba4a3
       
       - name: Use the version
         run: |
