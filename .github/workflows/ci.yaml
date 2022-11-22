@@ -17,7 +17,7 @@ jobs:
 
       - name: Git Version
         id: version
-        uses: codacy/git-version@53812dec9230e0a1078c47b6a80800df964ba4a3
+        uses: codacy/git-version@8e446228ada122b999724f985882698e58c9ddee
       
       - name: Use the version
         run: |
